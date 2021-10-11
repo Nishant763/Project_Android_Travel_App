@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable_google.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_flag.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\flag.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_homegreen.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\homegreen.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_footer2.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\footer2.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable_eye.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable\\eye.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_alarm.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\alarm.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_footer.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\footer.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_profileicon.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\profileicon.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ellipse.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\ellipse.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable_backgroundlogin.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable\\backgroundlogin.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable_twitter.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable_facebook.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable\\facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_card.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\card.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_editicon.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\editicon.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_homeicon.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\homeicon.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_profileblue.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\profileblue.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_coins.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\coins.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_backgroundsignup.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\backgroundsignup.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_leaderboardicon.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\leaderboardicon.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_card2.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable-v24\\card2.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\drawable_taelogo.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\drawable\\taelogo.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\TAE\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    }
+]
