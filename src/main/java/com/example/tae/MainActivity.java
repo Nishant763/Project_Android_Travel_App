@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText username;
     private EditText password;
     private Button signup;
+
     DBHelper db;
 
     public static final String EXTRA_NAME = "com.example.tae.extra.NAME";

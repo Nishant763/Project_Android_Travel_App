@@ -8,10 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 public class Home extends AppCompatActivity {
     private ImageView profile;
     private TextView welcometext;
     private Button add;
+    private ImageView leaderboard;
     public static final String EXTRA_NAME = "com.example.tae.extra.NAME";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +38,29 @@ public class Home extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(Home.this, Add.class);
+                intent.putExtra(EXTRA_NAME, name);
+                startActivity(intent);
+
+
 
             }
         });
+        leaderboard = findViewById(R.id.imageView17);
+
+        leaderboard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home.this, Camera.class);
+                intent.putExtra(EXTRA_NAME, name);
+                startActivity(intent);
+
+
+
+            }
+        });
+
+
+
     }
 }
