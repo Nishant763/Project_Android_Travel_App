@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="565dp"
@@ -16,8 +17,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/backgroundsignup" />
+
+    <EditText
+        android:id="@+id/idEmail"
+        android:layout_width="309dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFFDFD"
+        android:ems="10"
+        android:hint="Enter Email ID"
+        android:inputType="textPersonName"
+        android:textColor="#FAF7F7"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="351dp"
+        android:text="Username"
+        android:textColor="#F8F6F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.045" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -25,10 +57,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.374"
+        app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.146"
+        app:layout_constraintVertical_bias="0.092"
         app:srcCompat="@drawable/taelogo" />
 
     <TextView
@@ -51,31 +83,29 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
         android:layout_marginEnd="351dp"
-        android:text="Username"
+        android:text="Email"
         android:textColor="#F8F6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintHorizontal_bias="0.427"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.02" />
+        app:layout_constraintVertical_bias="0.232" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/idUsername"
         android:layout_width="309dp"
         android:layout_height="47dp"
         android:backgroundTint="#FFFDFD"
         android:ems="10"
-        android:hint="Enter username"
+        android:hint="Enter Username"
         android:inputType="textPersonName"
         android:textColor="#FAF7F7"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <TextView
         android:id="@+id/textView3"
@@ -85,10 +115,10 @@
         android:textColor="#F8F6F6"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.151"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/idUsername"
+        app:layout_constraintVertical_bias="0.262" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -103,10 +133,10 @@
         android:textColor="#F3EFEF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.419"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.018" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -119,19 +149,6 @@
         app:layout_constraintTop_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/eye" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Forgot Password?"
-        android:textColor="#F0EEC8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.023" />
 
     <Button
         android:id="@+id/button2"
@@ -147,10 +164,10 @@
         app:iconTint="#F0EEC8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.045"
+        app:layout_constraintVertical_bias="0.0"
         app:rippleColor="#F0EEC8"
         app:strokeColor="#F0EEC8" />
 
@@ -171,67 +188,19 @@
         tools:layout_editor_absoluteY="500dp" />
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="62dp"
-        android:text="OR"
-        android:textColor="#F0EEC8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.059"
-        app:srcCompat="@drawable/google" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.059"
-        app:srcCompat="@drawable/twitter" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.795"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.059"
-        app:srcCompat="@drawable/facebook" />
-
-    <TextView
         android:id="@+id/textView6"
         android:layout_width="146dp"
         android:layout_height="39dp"
-        android:text="Don't have an account?"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="88dp"
+        android:text="Already have an account?"
         android:textColor="@color/teal_200"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+        app:layout_constraintTop_toTopOf="@+id/button2" />
 
     <Button
         android:id="@+id/button4"

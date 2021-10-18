@@ -18,57 +18,34 @@
         app:layout_constraintVertical_bias="0.05"
         app:srcCompat="@drawable/ellipse" />
 
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06"
-        app:srcCompat="@drawable/flag" />
-
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
         android:textColor="@color/black"
-        android:textSize="18sp"
+        android:textSize="28dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.16"
-        app:srcCompat="@drawable/coins" />
+        app:layout_constraintVertical_bias="0.066" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/points"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2,350"
         android:textColor="@color/black"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintHorizontal_bias="0.376"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.161" />
+        app:layout_constraintVertical_bias="0.129" />
 
     <ImageView
         android:id="@+id/imageView20"
@@ -87,7 +64,7 @@
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:background="#00B7A8"
-        android:text="Pending "
+        android:text="Completed"
         android:textAlignment="viewStart"
         android:textColor="@color/white"
         app:cornerRadius="10sp"
@@ -99,31 +76,6 @@
 
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.226" />
-
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.103"
-        app:srcCompat="@drawable/card" />
-
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView21"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/card2" />
 
     <ImageView
         android:id="@+id/imageView24"
@@ -172,5 +124,33 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976"
         app:srcCompat="@drawable/leaderboardicon" />
+
+    <ScrollView
+        android:layout_width="402dp"
+        android:layout_height="348dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView26"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:id="@+id/profileLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

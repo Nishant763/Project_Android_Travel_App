@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private Button signup;
 
     DBHelper db;
+   // User user;
 
     public static final String EXTRA_NAME = "com.example.tae.extra.NAME";
     @Override
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         login = findViewById(R.id.button2);
-        username = findViewById(R.id.editTextTextPersonName);
+        username = findViewById(R.id.idUsername);
         password = findViewById(R.id.editTextTextPassword);
         db = new DBHelper(this);
         login.setOnClickListener(new View.OnClickListener() {

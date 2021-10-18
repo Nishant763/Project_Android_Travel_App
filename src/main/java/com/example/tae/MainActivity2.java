@@ -3,7 +3,6 @@ package com.example.tae;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,15 +14,18 @@ public class MainActivity2 extends AppCompatActivity {
     private Button signup;
     private EditText username;
     private EditText password;
+    private EditText email;
     DBHelper db;
     String emailid;
     String userpassword;
+    String user_name;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        username = findViewById(R.id.editTextTextPersonName);
+        username = findViewById(R.id.idUsername);
         password = findViewById(R.id.editTextTextPassword);
+        email = findViewById(R.id.idEmail);
         db = new DBHelper(this);
 
         login = findViewById(R.id.button4);
@@ -44,14 +46,15 @@ public class MainActivity2 extends AppCompatActivity {
                 //Toast.makeText(MainActivity2.this, "Insertion successful", Toast.LENGTH_SHORT).show();
                 //Intent intent = new Intent(MainActivity2.this, Home.class );
                 //startActivity(intent);
-                emailid = username.getText().toString();
+                emailid = email.getText().toString();
+                user_name = username.getText().toString();
                 userpassword = password.getText().toString();
-                if(emailid.equals("")||userpassword.equals(""))
+                if(emailid.equals("")||userpassword.equals("")||user_name.equals(""))
                     Toast.makeText(MainActivity2.this, "Please enter all the fields", Toast.LENGTH_SHORT).show();
                 else{
                     Boolean checkuser = db.checkuserexists(emailid);
                     if(checkuser==false){
-                        Boolean insert = db.insertData(emailid, userpassword);
+                        Boolean insert = db.insertData(emailid,user_name, userpassword);
                         if(insert==true)
                             Toast.makeText(MainActivity2.this, "Registration successful", Toast.LENGTH_SHORT).show();
                         else{
